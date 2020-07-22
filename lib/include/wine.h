@@ -32,9 +32,21 @@ using PairArrayT = std::pair<ArrayIntT, ArrayIntT>;
             void calculateAges();          
     };
 #else
-    class Wine
+    class Wine : PairArrayT, ArrayIntT
     {
+        public:
+            Wine(const char* l, int y, const int yr[], const int bot[]);
+            Wine(const char* l, int y);
+            ~Wine();
+            void getBottles();
+            void show() const;
+            const char* label() const;
+            size_t sum() const;
 
+        private:
+            char* name;
+
+            void calculateAges();
     };
 #endif
 

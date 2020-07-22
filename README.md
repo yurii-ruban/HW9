@@ -23,6 +23,6 @@ Application asks the user to enter the wine's label, number of elements in array
 ## How to check
 To run the program cd to root of the repository and create build folder. Then:
 
-1. `cmake -H. -Bbuild`
+1. `cmake -H. -Bbuild / cmake -H. -Bbuild -DUSE_COMPOSITION=1`
 2. `cmake --build build`
 3. `./build/testapp`

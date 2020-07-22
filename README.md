@@ -1,4 +1,4 @@
-# Homework task 9 (9th lecture)
+# Homework task 9 (8th lecture)
 This project contains a binary that represents work with class `Wine`.
 
 ## Description
